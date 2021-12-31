@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class TofindMissingNum 
 {
 
-	public int tofindMissingNum(int test[])
+	public void tofindMissingNum(int test[])
 	{
 		int i=1,j;
 		
@@ -28,14 +28,10 @@ public class TofindMissingNum
 								
 			}
 			
-		/*	else
-			{
-				System.out.println("Missing element in Array :"+i);
-			}
-			 */
+		
 		}
 		
-		return 1;
+		
 	}
 	
 	public static void main(String[] args) 
